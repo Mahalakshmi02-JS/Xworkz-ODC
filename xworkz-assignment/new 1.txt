@@ -1,0 +1,152 @@
+1)Compile time-Here source code is converted into an byte code,this byte code cannot understand by the system only java can understand this byte code.
+Syntactical errors can be identified during compilation,during compilation no need of main method.
+
+Run time- Time at which the code starts executing,when we run the program JVM always search for main method if there is missing in main method 
+then it shows the error during runtime.
+
+2)byte,short,int,float,long,double,char,boolean
+byte alphabets=26;
+short bones=206;
+int balasubramanyasSongs=40000;
+float weight=50.120f;
+long speedOfLight=225000;
+double RbcsInHumanBody=25000000000d;
+char gender='F'
+boolean SkyIsBlue;
+
+
+3) String teeth="32";
+byte convertedTeeth=Byte.parseByte(teeth);
+String doorNo="550";
+short convertedDoorNo=Short.parseShort(doorNo);
+String areaOfIndianOcean="73426000";
+int convertedAreaOfIndianOcean=Integer.parseInt(areaOfIndianOcean);
+String phValueOfAcidRain="4.2"
+float convertedPhValueOfAcidRain=Float.parseFloat(phValueOfAcidRain);
+String ageOfMoon=4530000000;
+long convertedAgeOfMoon=Long.parseLong(ageOfMoon);
+String stdAtmosphere="10132.50"
+double convertedStdAtmosphere=Double.parseDouble(stdAtmosphere);
+String waterIsSolid="false"
+boolean convertedWaterIsSolid=Boolean.parseBoolean(waterIsSolid);
+Char doesn't have method called as Parse;
+ex for char:
+String alphabet="M";
+char.convertedAlphabet=alphabet.chatAt(0);
+
+4) Method: Sequence of statements used to perform logic.
+Method is also a statement.Using of the methods helps to reuse of statement,class can have one or more methods.
+When we declaring variable within the method its is called as Local variable
+Ex: long phone=9480303154L;
+float percentage=96.23f;
+
+Parameter:Parameter is a value,it is enclosing in paranthesis.
+It acts as variable inside the method. It is specified after the method name
+Ex:public static void main (String[]numbers)
+Whatevr inside the paranthesis that is parameter of main method.
+
+Argument: Passing the values to parameter is called as Argument.
+Ex: short firstNumber=120;
+short secondNumber=5;
+short addition=add(firstNumber,secondNumber);
+whatever we are passing here in paranthesis called as arguments.
+
+return Types:It constraints the data type of the value returned from method.
+Ex: boolean callConnected=true;
+return callConnected;
+
+Encapsulation:Hiding the data members that is fields and we provide access using methods.
+Using access specifiers we achieve encapsulation
+Ex: class bank{
+public static String name="SBI"
+}
+customer{
+public static void bankName(){
+String=bank.Name;
+System.out.println(name);
+}
+customerTester{
+public static void main(String[]args){
+customer.bankName();
+}
+}
+}
+
+
+6) Collection of elements which are of same datatypes is called as Array.
+Syntax:String[]emails-This is used to print the String of same variables
+ 
+EX: public class Charger{
+public static void main(String[]power)
+{
+System.out.println("List of percentages");	
+	arrayOfPercentages();
+}
+	public static void arrayOfPercentages(){
+	System.out.println("Invoked array of Percentages");
+
+float sslcPercentage=89.55f;
+float pucPercenatge=90.36f;
+float degreePercentage=74.23f;
+float [] percent={sslcPercentage,pucPercenatge,degreePercentage};
+float marks1 =percent[0];
+		 System.out.println("sslcPercentage= "+marks1);
+	
+	float marks2=percent[1];
+		 System.out.println("pucPercenatge= "+marks2);
+	
+float marks3=percent[2];	
+		 System.out.println("degreePercentage= "+marks3);
+}	
+}
+
+8)Method Overloading:When two methods having same signature and different in parameters are called as Method overloading.
+Overloading happens only within the same class
+Ex:public static void school(int deskNo,String friends)
+Ex:public static void school(String schoolName,int countOfStudents)
+Ex:Ex:public static void school(float heightOfBuilding,String nameOfSchool,short blackBoard)
+
+7)public class brands{
+	public static void main(String[]look)
+	{
+	System.out.println("Start printing brands");
+	arrayOfBrands();
+	}
+	public static void arrayOfBrands(){
+		System.out.println("Invoke the array of Brands");
+	String brand1=("Honda");
+    String brand2=("Suzuki");
+    String brand3= ("Hyundai");
+    String[] brands={brand1,brand2,brand3};
+
+		 String firstIndexname=brands[0];
+		 
+		 System.out.println("brands Id at index zero "+firstIndexname);
+		 
+		 String secondIndexName=brands[1];
+		 
+		 System.out.println("brands Id at index one  "+secondIndexName);
+		 
+		 String thirdIndexName=brands[2];
+		 
+		 System.out.println("brands Id at index two  "+thirdIndexName);
+	     int numberOfbrands=brands.length;
+		 System.out.println("Total brands are "+numberOfbrands);
+	
+	
+	}
+	
+	
+	}	
+	
+
+
+
+
+
+
+
+
+
+
+
